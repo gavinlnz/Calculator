@@ -12,22 +12,22 @@ namespace Calculator
         public App()
         {
             // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "Calculator",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
+            //var content = new ContentPage
+            //{
+            //    Title = "Calculator",
+            //    Content = new StackLayout
+            //    {
+            //        VerticalOptions = LayoutOptions.Center,
+            //        Children = {
+            //            new Label {
+            //                HorizontalTextAlignment = TextAlignment.Center,
+            //                Text = "Welcome to Xamarin Forms!"
+            //            }
+            //        }
+            //    }
+            //};
 
-            MainPage = new NavigationPage(content);
+            MainPage = new Calculator.MainPage();
         }
 
         protected override void OnStart()
